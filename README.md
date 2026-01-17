@@ -3,6 +3,9 @@
 ## Overview
 A comprehensive system for detecting anomalous vehicle trips using time-series feature engineering and unsupervised anomaly detection techniques. The system analyzes GPS telemetry data to identify abnormal driving patterns, sensor faults, traffic disruptions, and data inconsistencies in fleet operations.
 
+
+Dataset link : https://figshare.com/articles/dataset/Porto_taxi_trajectories/12302165?utm_source=chatgpt.com&file=22677902 
+
 ## Features
 - **Multi-Method Detection**: Combines statistical (Z-score/IQR) and machine learning (Isolation Forest) approaches
 - **Comprehensive Feature Engineering**: Transforms raw telemetry into 15+ trip-level features including speed statistics, distance metrics, and temporal patterns
