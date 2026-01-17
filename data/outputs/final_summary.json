@@ -1,0 +1,44 @@
+{
+  "data_ingestion": {
+    "raw_records": 1674160,
+    "validated": true,
+    "taxi_count": 442,
+    "trajectory_count": 1674149
+  },
+  "preprocessing": {
+    "cleaned_records": 1673443,
+    "removed_records": 717
+  },
+  "feature_engineering": {
+    "features_created": 15,
+    "trips_analyzed": 1673426
+  },
+  "anomaly_detection": {
+    "total_trips": 1673426,
+    "statistical_anomalies": "154797",
+    "ml_anomalies": "167335",
+    "combined_anomalies": "184516",
+    "severe_anomalies": "137616",
+    "anomaly_rate": 11.026241973054082,
+    "feature_contributions": {
+      "zscore_distance_km": "10955",
+      "zscore_lat_change": "16407",
+      "zscore_lon_change": "10728",
+      "zscore_estimated_speed_kmh": "10955",
+      "zscore_hour_of_day": "0",
+      "zscore_distance_zscore": "10955",
+      "zscore_speed_zscore": "10955",
+      "iqr_distance_km": "108429",
+      "iqr_lat_change": "123979",
+      "iqr_lon_change": "48470",
+      "iqr_estimated_speed_kmh": "108429",
+      "iqr_hour_of_day": "0",
+      "iqr_distance_zscore": "108429",
+      "iqr_speed_zscore": "108429"
+    }
+  },
+  "fleet_insights": {
+    "problematic_vehicles": 0,
+    "overall_anomaly_rate": 11.026241973054082
+  }
+}

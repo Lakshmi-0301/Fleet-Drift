@@ -1,0 +1,31 @@
+============================================================
+FLEET HEALTH INSIGHTS REPORT
+============================================================
+
+Total Vehicles: 442
+Total Trips Analyzed: 1,673,426
+Overall Anomaly Rate: 11.03%
+
+--- Problematic Vehicles ---
+Count: 0 vehicles
+Average Anomaly Rate: nan%
+
+--- Time-Based Patterns ---
+Peak Anomaly Hours: 4, 5, 3:00
+Worst Day: Sunday (12.8% anomaly rate)
+
+--- Anomaly Type Distribution ---
+normal: 89.0%
+severe_anomaly: 8.2%
+anomaly: 2.8%
+
+--- Top Contributing Features ---
+lat_change: 140,386 anomalies
+distance_km: 119,384 anomalies
+estimated_speed_kmh: 119,384 anomalies
+distance_zscore: 119,384 anomalies
+speed_zscore: 119,384 anomalies
+
+============================================================
+END OF REPORT
+============================================================
